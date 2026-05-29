@@ -68,7 +68,7 @@ tamilnadu-election-analysis-2026/
 ```text
  [ Web Scraping ]              [ Data Engineering ]             [ Business Intelligence ]
    ECI Website     ┐
-   IndiaVotes      ┴─► [ Python / Selenium ] ─► [ Raw CSVs ] ─► [ PostgreSQL / SQL Server ]
+   IndiaVotes      ┴─► [ Python / Selenium ] ─► [ Raw CSVs ] ─► [ MySQL ]
                                                                        │
  [ Data Presentation ]                                                 ▼ (CTEs, JOINs, Windows)
    Interactive Power BI ◄────────────────────────────────────── [ Star Schema Models ]
