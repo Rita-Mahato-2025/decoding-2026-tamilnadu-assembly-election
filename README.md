@@ -1,4 +1,5 @@
-![Logo](images/atliq_media_logo.png)
+<img src="https://github.com/rita-mahato-2025/decoding-2026-tamilnadu-assembly-election/raw/main/images/atliq_media_logo.png" width="200" alt="Logo">
+
 # Decoding 2026 Tamil Nadu Assembly Election : End-to-End Analytics & Data Pipeline
 
 ## 🚀 Project Overview
@@ -171,11 +172,11 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 ![Geographic Story](visuals/geographical_story_02.png)
 
 ### 🔎 Key Analytical Insights 
- 
+``` 
 •	The Urban Wave vs. Rural Resistance: TVK’s victory is built on an aggressive urban/semi-urban wave (evident from Chennai Metro and South regions). However, traditional parties still hold deep roots in specific pockets (AIADMK in North and Central).
 •	Vote Splitting Dynamics: The "Electoral Mandate" scatter plots at the bottom right indicate that vote shares have dramatically shifted. The consolidation of a large vote chunk around the 36%–37% mark for TVK means the threshold to win seats became much tighter, resulting in multi-cornered fights where lower vote percentages yielded victories.
 •	Coalition Imperative: Because TVK is at 108 seats, they need 10 more seats to form a government. They are highly likely to court smaller regional parties, independents, or potentially look at an alliance of convenience with fractured elements of the existing system to cross the line.
-
+```
 Based on the provided election dashboard snapshots (which display comparative data between the 2021 and 2026 assembly elections for a 234-seat assembly, highly resembling Tamil Nadu's political landscape), here is an expert breakdown and interpretation of the data.
 The two images show a toggle view: Image 1 highlights the 2021 historical data baseline, and Image 2 highlights the 2026 election results.
 1. Executive Summary & Macro Trends
@@ -209,10 +210,10 @@ E. Central & Delta Regions
 ![Geographic Story](visuals/flip_story_03.png)
 
 ### 🔎 Key Analytical Insights 
- 
+``` 
 •	TVK is Built on Disaffected DMK Voters: While TVK took seats from everyone, its primary engine of growth was consuming the DMK's 2021 urban coalition. For every 1 seat TVK took from ADMK, it took more than 2.5 seats from DMK.
 •	The Core Stronghold Survival: Look closely at the background flows in image_02a319.png. Notice the thick, uninterrupted lines of voters staying with DMK and ADMK, alongside some minor flips (like INC or VCK voters moving around). This proves that while TVK completely disrupted the state, it did not entirely dissolve the core foundational party bases—it just disproportionately won the swinging, anti-incumbent majority.
-
+```
 Based on the provided dashboards focusing on the "Flip Story" between the 2021 and 2026 assembly elections, we can run a deep diagnostic on constituency transitions. This data isolates the specific seats that changed hands (flipped) to show exactly how the political landscape fractured.
 The three images provide an overview and then drill down into specific transitions: image_02a3d3.png shows the holistic flip view, image_02a39b.png filters for the DMK $\rightarrow$ TVK flip, and image_02a319.png filters for the ADMK $\rightarrow$ TVK flip.
 1. Executive Summary & Anti-Incumbency Metrics
@@ -249,10 +250,10 @@ As highlighted in image_02a319.png:
 ![Geographic Story](visuals/vote_share_story.png)
 
 ### 🔎 Key Analytical Insights 
- 
+```
 •	Efficiency of the Vote: TVK's 23.85% statewide vote share yielded 108 seats, meaning their vote was incredibly geographically efficient—especially in urban pockets like Chennai where their numbers spiked to 47%.
 •	The Multi-Cornered Trap: With four major factions holding between 15% and 24% of the statewide vote (TVK, DMK, AIADMK, INC, and BJP), the threshold needed to win a constituency under the first-past-the-post system dropped significantly. This explains why a party with just ~34% regional vote share could trigger a massive seat sweep.
-
+```
 Based on the provided dashboard snapshot titled "Vote Share Story" in image_029c18.png, we can perform a comprehensive data exploration and analysis of the underlying popular vote mechanics that powered the 2026 election results.
 This view shows how political support shifted globally and regionally, shifting focus away from raw seat counts to actual voter percentages.
 1. Statewide Vote Share Analysis (2022 vs. 2026)
@@ -332,7 +333,6 @@ If you only looked at the statewide popular vote change table (image_029c18.png)
 
 **📌 Insight 3: The Coalition Imperative Matrix**
 With TVK sitting at 108 seats (10 short of a majority) and the DMK-led block sitting fragmented, the dashboard maps the path to power. TVK does not need a mega-alliance; by targeting and converting just 10% of the minor, highly squeezed-out independent/ally blocks (like DMDK or others who saw minor seat/vote blips), they can form a highly stable coalition without compromising their core brand identity.
----
 
 ## 🛠️ Tech Stack & Advanced Visualizations Implemented
 * **BI Platform:** Microsoft Power BI Desktop
