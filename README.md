@@ -43,7 +43,7 @@ Your job: find the most interesting stories in the 2026 results, build clear cha
 You are not asked to explain why any party won or lost. You are not asked to predict what will happen next.
 In 2026, AI can do most of the analysis for you. The real skill we are testing is storytelling: picking the right numbers, framing them so a regular viewer understands, and holding their attention without using complicated charts.
 
-
+---
 ## Project Structure
 
 ```
@@ -62,7 +62,7 @@ tamilnadu-election-analysis-2026/
     └── vote_share_trends.png
 	
 ```
-
+---
 ## 🛠️ The Full-Stack Architecture & Data Pipeline
 
 ```text
@@ -94,7 +94,7 @@ Data Standardization: Applied string manipulation functions and window operation
 The Architecture: Structurally transformed the flat files into a highly optimized database Star Schema, consisting of centralized Fact tables flanked by clean, relational Dimension tables (Geography, Time, and Parties).
 
 ```
-
+---
 ## 🧩 Data Resource
 
 •	ECI Results Portal (2026 TN Assembly): results.eci.gov.in/ResultAcGenMay2026. Constituency-wise results, candidates, votes, and turnout for the 2026 election.
@@ -105,7 +105,7 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 •	Census 2011 boundary data: censusindia.gov.in. Use only for map boundaries. Do not make any demographic claims about voters.
 •	Codebasics starter pack: three CSV files — tn_2021_results.csv, tn_2026_results.csv, and constituency_master.csv. Same schema. Ready to use.
 
-
+---
 ## 🧩 Dataset Description
 
 ### The project is based on 5 CSV files:
@@ -129,6 +129,8 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 •	mart_constituency_flips → fact_election_result (1:many)
 •	mart_constituency_flips → dim_constituency (1:1, cross filter direction)
 
+---
+
 ## 💡 Features Built (KPIs & Visuals)
 
 ## Key Metrics:
@@ -144,6 +146,8 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 ## Filters:
 
 •	Election Year : 2021, 2026
+
+---
 
 ## 🖥 Report Pages
 
@@ -165,6 +169,8 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 •	Regional Vote Share (Stacked Column Chart) 
 •	TVK Penetration (Stacked Bard Chart)
 •	Vote Share Changed for Each Party (Matrix) - interdependent with TVK Penetration
+
+---
 
 ### 📷 Dashboard Preview 
 
@@ -193,11 +199,14 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 •	Efficiency of the Vote: TVK's 23.85% statewide vote share yielded 108 seats, meaning their vote was incredibly geographically efficient—especially in urban pockets like Chennai where their numbers spiked to 47%.
 •	The Multi-Cornered Trap: With four major factions holding between 15% and 24% of the statewide vote (TVK, DMK, AIADMK, INC, and BJP), the threshold needed to win a constituency under the first-past-the-post system dropped significantly. This explains why a party with just ~34% regional vote share could trigger a massive seat sweep.
 ```
+---
 ## 🛠 Tech Stack 
 
 •	Python - Web Scrapping and Data Exploration
 •	MySQL - Data Cleaning and Transformation
 •	Power BI - Data Visualization
+
+---
 
 ## 💡 Key Analytical Pillars & Insights
 
@@ -239,16 +248,22 @@ If you only looked at the statewide popular vote change table (image_029c18.png)
 **📌 Insight 3: The Coalition Imperative Matrix**
 With TVK sitting at 108 seats (10 short of a majority) and the DMK-led block sitting fragmented, the dashboard maps the path to power. TVK does not need a mega-alliance; by targeting and converting just 10% of the minor, highly squeezed-out independent/ally blocks (like DMDK or others who saw minor seat/vote blips), they can form a highly stable coalition without compromising their core brand identity.
 
+---
+
 ## 🛠️ Tech Stack & Advanced Visualizations Implemented
 * **BI Platform:** Microsoft Power BI Desktop
 * **Advanced Data Modeling:** Native Power BI Star Schema architecture with DAX measures for dynamic % of total seat distributions.
 * **Sankey Flow Chart:** Implemented via advanced custom marketplace visuals to track asymmetric seat transitions.
 * **Scatter Optimization Matrix:** Developed to map absolute Vote Share (%) against Seat Share (%) to gauge electoral efficiency.
 
+---
+
 ## 📦 How to Interact with this Project Locally
 1. Clone the repository: `git clone https://github.com/YOUR_USERNAME/tamilnadu-election-analysis-2026.git`
 2. Open the `/pbix/TN_Election_2026_Analysis.pbix` file using Microsoft Power BI Desktop.
 3. Use the contextual canvas buttons to fluidly cycle through the **Geographical Analysis**, **Flip Story**, and **Vote Share Story**.
+
+---
 
 ## Author & Contact
 
