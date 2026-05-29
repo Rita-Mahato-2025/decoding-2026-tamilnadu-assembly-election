@@ -177,34 +177,6 @@ The Architecture: Structurally transformed the flat files into a highly optimize
 •	Vote Splitting Dynamics: The "Electoral Mandate" scatter plots at the bottom right indicate that vote shares have dramatically shifted. The consolidation of a large vote chunk around the 36%–37% mark for TVK means the threshold to win seats became much tighter, resulting in multi-cornered fights where lower vote percentages yielded victories.
 •	Coalition Imperative: Because TVK is at 108 seats, they need 10 more seats to form a government. They are highly likely to court smaller regional parties, independents, or potentially look at an alliance of convenience with fractured elements of the existing system to cross the line.
 ```
-Based on the provided election dashboard snapshots (which display comparative data between the 2021 and 2026 assembly elections for a 234-seat assembly, highly resembling Tamil Nadu's political landscape), here is an expert breakdown and interpretation of the data.
-The two images show a toggle view: Image 1 highlights the 2021 historical data baseline, and Image 2 highlights the 2026 election results.
-1. Executive Summary & Macro Trends
-The 2026 election results show a massive, disruptive realignment in the state's political landscape, primarily driven by a powerful new political entrant.
-•	Total Seats: 234 seats total (a simple majority requires 118 seats).
-•	The Massive Disruption (TVK): TVK is a brand-new entry that completely shattered the traditional DMK-AIADMK duopoly. It won 108 seats, instantly becoming the single largest party in the assembly, though falling just short of an absolute majority (118).
-•	The DMK Collapse: The incumbent DMK suffered a staggering loss, dropping from 133 seats in 2021 down to 61 seats in 2026 (a net loss of 72 seats).
-•	The AIADMK Decline: ADMK / AIADMK also shrank significantly, dropping from 66 seats in 2021 to 47 seats in 2026 (a net loss of 19 seats).
-•	A Hung Assembly: Since no single party or visible monolithic alliance cleared the 118-seat threshold, the data indicates a hung assembly where TVK will hold the primary leverage to form a coalition government.
-2. Regional Breakdown & Shift Analysis
-By tracking the stacked bar charts and heatmaps across both images, we can pinpoint exactly where this political earthquake took place.
-A. Chennai Metro (Total: ~32 Seats)
-•	2021 Status: Absolute DMK dominance. DMK won 29 seats, with minor allies picking up the rest.
-•	2026 Reality: A near-total wipeout for the traditional parties. TVK won 29 seats here, completely capturing the urban capital region. DMK and others were reduced to single digits.
-B. North Region (Total: ~38 Seats)
-•	2021 Status: Highly contested, but heavily favored DMK (19 seats) and AIADMK (12 seats).
-•	2026 Reality: TVK won 15 seats, cutting deeply into DMK’s share (which dropped to just 4 seats). Interestingly, AIADMK held completely firm here, retaining all 15 seats. The heatmap confirms North became a TVK-AIADMK battleground.
-C. South Region (Total: ~58 Seats)
-•	2021 Status: A strong stronghold for DMK, which held 31 seats, while AIADMK held 16.
-•	2026 Reality: TVK captured 26 seats here. DMK fell to 22 seats, and AIADMK was relegated to a minor player with just 5 seats.
-D. Kongu Region (Total: ~33 Seats)
-•	2021 Status: Traditionally an AIADMK stronghold. In 2021, AIADMK won 19 seats, while DMK managed 10.
-•	2026 Reality: TVK won 16 seats, completely fracturing the AIADMK fortress. AIADMK dropped drastically to 7 seats, while DMK held steady at 9 seats.
-E. Central & Delta Regions
-•	Central: AIADMK held perfectly flat at 15 seats across both elections. DMK collapsed from 21 seats to just 8, while TVK absorbed the difference by winning 12 seats.
-•	Delta: DMK dropped from 23 to 16 seats. AIADMK dropped from 4 to 0. TVK won 10 seats, and smaller parties like DMDK/others made minor cameos.
-
-
 ![Geographic Story](visuals/flip_story_01.png)
 ![Geographic Story](visuals/flip_story_02.png)
 ![Geographic Story](visuals/flip_story_03.png)
@@ -214,39 +186,6 @@ E. Central & Delta Regions
 •	TVK is Built on Disaffected DMK Voters: While TVK took seats from everyone, its primary engine of growth was consuming the DMK's 2021 urban coalition. For every 1 seat TVK took from ADMK, it took more than 2.5 seats from DMK.
 •	The Core Stronghold Survival: Look closely at the background flows in image_02a319.png. Notice the thick, uninterrupted lines of voters staying with DMK and ADMK, alongside some minor flips (like INC or VCK voters moving around). This proves that while TVK completely disrupted the state, it did not entirely dissolve the core foundational party bases—it just disproportionately won the swinging, anti-incumbent majority.
 ```
-Based on the provided dashboards focusing on the "Flip Story" between the 2021 and 2026 assembly elections, we can run a deep diagnostic on constituency transitions. This data isolates the specific seats that changed hands (flipped) to show exactly how the political landscape fractured.
-The three images provide an overview and then drill down into specific transitions: image_02a3d3.png shows the holistic flip view, image_02a39b.png filters for the DMK $\rightarrow$ TVK flip, and image_02a319.png filters for the ADMK $\rightarrow$ TVK flip.
-1. Executive Summary & Anti-Incumbency Metrics
-The 2026 election saw an absolute tidal wave of anti-incumbency and voter volatility.
-•	The Volatility Index: Out of 234 total assembly seats, an astonishing 165 seats flipped to a different party compared to 2021.
-•	The Flip Rate: This translates to a 70.51% Flipped Seat %. Seven out of ten sitting constituencies rejected their incumbent party, an incredibly high rate of turnover that signals deep public appetite for political realignment.
-2. Where Did the Flips Happen? (Regional Analysis)
-The bar chart, "Constituency Distribution by Political Region," shows where the 165 flipped seats were geographically located:
-•	South Region: Experienced the highest volume of change with 39 flipped seats.
-•	Chennai Metro: Saw 30 seats flip. Given that Chennai Metro has roughly 32 seats total, this means nearly the entire capital region completely uprooted its 2021 mandate.
-•	North, Kongu, and Central Regions: Experienced massive disruptions as well, accounting for 28, 27, and 26 flipped seats respectively.
-•	Delta Region: Saw the lowest volume of seat turnover with 15 flipped seats.
-3. Deep-Dive: The TVK Takeover Vectors
-By utilizing the Sankey diagrams (Winner Transitions) from image_02a39b.png and image_02a319.png, we can map precisely where the new entrant, TVK, pulled its historic 108-seat haul from.
-       [2021 Base]                          [2026 Result]
-       ┌─────────┐       65 Seats Flipped   ┌───────────┐
-       │   DMK   │ ───────────────────────> │    TVK    │
-       └─────────┘                          └───────────┘
-       ┌─────────┐       25 Seats Flipped   ┌───────────┐
-       │  ADMK   │ ───────────────────────> │    TVK    │
-       └─────────┘                          └───────────┘
-Vector A: The DMK to TVK Bleed (The Primary Catalyst)
-As highlighted by the tooltips in image_02a39b.png:
-•	Seat Count: 65 seats flipped directly from DMK $\rightarrow$ TVK.
-•	Impact Share: This single transition accounts for 27.78% of all seats in the entire assembly.
-•	Regional Breakdown: Out of these 65 seats, the urban/semi-urban hubs collapsed entirely into TVK's hands: 26 were in Chennai Metro and 15 were in the South. The remaining seats came from the North (7), Central (7), Delta (7), and Kongu (3).
-Vector B: The ADMK to TVK Bleed (The Secondary Catalyst)
-As highlighted in image_02a319.png:
-•	Seat Count: 25 seats flipped directly from ADMK $\rightarrow$ TVK.
-•	Impact Share: This transition made up 10.68% of the total assembly.
-•	Regional Breakdown: TVK cracked open the traditional ADMK strongholds here. 11 of these seats came straight out of the Western Kongu belt. The rest came from the North (5), South (5), and Central (4) regions. Zero seats came from Chennai Metro or Delta for this specific flow.
-
-
 ![Geographic Story](visuals/vote_share_story.png)
 
 ### 🔎 Key Analytical Insights 
@@ -254,40 +193,6 @@ As highlighted in image_02a319.png:
 •	Efficiency of the Vote: TVK's 23.85% statewide vote share yielded 108 seats, meaning their vote was incredibly geographically efficient—especially in urban pockets like Chennai where their numbers spiked to 47%.
 •	The Multi-Cornered Trap: With four major factions holding between 15% and 24% of the statewide vote (TVK, DMK, AIADMK, INC, and BJP), the threshold needed to win a constituency under the first-past-the-post system dropped significantly. This explains why a party with just ~34% regional vote share could trigger a massive seat sweep.
 ```
-Based on the provided dashboard snapshot titled "Vote Share Story" in image_029c18.png, we can perform a comprehensive data exploration and analysis of the underlying popular vote mechanics that powered the 2026 election results.
-This view shows how political support shifted globally and regionally, shifting focus away from raw seat counts to actual voter percentages.
-1. Statewide Vote Share Analysis (2022 vs. 2026)
-The "Statewide Vote Share" chart tracks how the total voter pie fractured over the election cycle.
-•	TVK (The New Dominant Force): TVK captured the largest slice of the electorate in 2026 with 23.85% of the statewide vote share.
-•	The DMK Meltdown: DMK's statewide vote share contracted severely, dropping from 28.66% in 2022 down to 22.05% in 2026. Despite dropping behind TVK in popular support, they retained enough concentrated voter blocks to win 61 seats.
-•	AIADMK & INC Declines: Both traditional giants shrunk in overall share. AIADMK fell from 24.69% to 19.27%, while INC slid from 25.47% down to 18.93%.
-•	BJP Contraction: The BJP also saw its statewide popular footstep shrink, moving from 21.17% in 2022 to 15.90% in 2026.
-2. Vote Share Change: The Gainers vs. Losers
-The "Vote Share Change" table quantifies the absolute percentage swings for each party, confirming a massive consolidation toward two main disruptors.
-•	The Big Gainers: TVK (+36.62) and DMDK (+25.85) registered massive growth metrics, showing that voters actively broke away from old alignments.
-•	The Traditional Block Bleed: Every single major established party faced negative vote share growth.
-o	CPI: -44.17 (The largest crash in structural support)
-o	DMK: -13.18
-o	INC: -12.73
-o	AIADMK: -10.93
-o	BJP: -10.33
-o	Lesser regional allies like VCK (-9.35) and PMK (-8.76) were similarly squeezed out.
-3. Regional Vote Share & TVK Penetration
-The "TVK Penetration" horizontal chart paired with the "Regional Vote Share" stacked bar chart reveals exactly how TVK localized its strength.
-A. Chennai Metro (The Epicenter)
-•	TVK Penetration: 47%
-•	Analysis: TVK captured an outright near-majority of all votes cast in Chennai Metro. This overwhelming concentration explains why they were able to completely sweep 29 out of the region's seats. DMK was a distant second here with 33%, while BJP (12%) and INC (26%) lagged far behind.
-B. Kongu (The Western Front)
-•	TVK Penetration: 37%
-•	Analysis: Kongu shows a highly competitive three-pronged layout. TVK led with 37%, but DMK held onto 34% and BJP secured 27%, leading to highly fragmented local margins.
-C. Delta & South Regions
-•	TVK Penetration: 35% in both regions.
-•	Analysis: In Delta, DMK actually maintained a higher popular vote share (37%) than TVK (35%), which explains why DMK managed to retain 16 seats there. In the South, DMK (35%) and TVK (35%) tied perfectly in popular vote share, turning the region into a volatile battleground.
-D. North & Central Regions (The Resistance)
-•	TVK Penetration: 34% (North) and 33% (Central)
-•	Analysis: These regions represent TVK’s lowest relative penetration levels. In North and Central, the combined vote shares of the traditional alliances (such as BJP holding 30% in both and DMK maintaining 32% and 31%) kept TVK from running away with unmitigated majorities, aligning with AIADMK's seat resilience there.
-
-
 ## 🛠 Tech Stack 
 
 •	Python - Web Scrapping and Data Exploration
