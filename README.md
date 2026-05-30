@@ -14,7 +14,7 @@ Using the **STAR method (Situation, Task, Action, Result)**, this documentation 
 
 End-to-End Power Analytics Project 
 
-**Live Dashboard:** [Click here](https://app.powerbi.com/view?r=eyJrIjoiNDBjOGYwNDctYmFiZC00ZDZlLTkwZDEtOTdhNGRjYjE2ZTBjIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+**Live Dashboard:** [Click here](https://app.powerbi.com/view?r=eyJrIjoiNjgzMDcyYjUtNzNhMC00MjEwLWIwYTQtOTBhZWUyZWIxZWMyIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
 ---
 
